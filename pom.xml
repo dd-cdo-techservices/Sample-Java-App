@@ -58,7 +58,7 @@
             </configuration>
         </plugin>
     </plugins>
-		<finalName>LoginWebAppsV1.7</finalName>
+		<finalName>LoginWebAppsV1.8</finalName>
 </build>
 	
 </project>
