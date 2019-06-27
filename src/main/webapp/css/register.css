@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f8f9fa;
+}
+
+.form-register {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-register .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-register .form-control:focus {
+  z-index: 2;
+}
+.form-register input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-register input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.right-tab
+{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.right-tab img{
+  height: 300px;
+}
+.right-tab p{
+  text-align: center;
+}
+
+.right-tab-reg
+{
+  padding-top: 70px;
+  padding-left: 30px;
+
+}
+
+.left-tab-reg
+{
+  padding-left: 30px;
+}

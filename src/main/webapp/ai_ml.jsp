@@ -1,12 +1,3 @@
-<%
-    
-    if ((session.getAttribute("userid") == null) || (session.getAttribute("userid") == "")) {
-%>
-You are not logged in<br/>
-<a href="index.jsp">Please Login</a>
-<%} else {
-%>
-Welcome <%=session.getAttribute("userid")%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -29,9 +20,6 @@ Welcome <%=session.getAttribute("userid")%>
                 }
 
                
-                .b-agent-demo_powered_by {
-                     display: none;
-                }
 
          </style>
 
@@ -46,7 +34,7 @@ Welcome <%=session.getAttribute("userid")%>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="success.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">Contact info</a>
@@ -75,58 +63,13 @@ Welcome <%=session.getAttribute("userid")%>
 
 
                   </nav>
-
-
-
-                  
-
-                  <div class="container">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                          <!-- Indicators -->
-                          <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                          </ol>
-                      
-                          <!-- Wrapper for slides -->
-                          <div class="carousel-inner">
-                            <div class="item active">
-                              <img src="images/H_C_01.jpg" alt="Los Angeles" style="width:100%;">
-                            </div>
-                      
-                            <div class="item">
-                              <img src="images/H_C_02.jpg" alt="Chicago" style="width:100%;">
-                            </div>
-                          
-                            <div class="item">
-                              <img src="images/H_C_03.jpg" alt="New york" style="width:100%;">
-                            </div>
-                          </div>
-                      
-                          <!-- Left and right controls -->
-                          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                            <span class="sr-only">Previous</span>
-                          </a>
-                          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                            <span class="sr-only">Next</span>
-                          </a>
-                        </div>
-                      </div>
-                      
-
+             <div class="fixed">
+                      <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/4c2b587d-044e-4bd3-948c-c9dc4dad46fa">
+              
+                      </iframe>
+              </div>
 
 
 </body>
 </html>
-
-
-
-
-<%
-    }
-%>
-
 
