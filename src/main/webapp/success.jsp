@@ -1,12 +1,11 @@
 <%
     
     if ((session.getAttribute("userid") == null) || (session.getAttribute("userid") == "")) {
+     
+      response.sendRedirect("welcome.jsp");
+
+    } else {
 %>
-You are not logged in<br/>
-<a href="index.jsp">Please Login</a>
-<%} else {
-%>
-Welcome <%=session.getAttribute("userid")%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -56,7 +55,7 @@ Welcome <%=session.getAttribute("userid")%>
                             Solutions
                           </a>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="ai_html.jsp">AI/ML Chatbot</a>
+                            <a class="dropdown-item" href="ai_ml.jsp">AI/ML Chatbot</a>
                             <a class="dropdown-item" href="#">DevOps</a>
                             
                         </li>
@@ -70,7 +69,7 @@ Welcome <%=session.getAttribute("userid")%>
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
-                    
+                    Welcome <%=session.getAttribute("userid")%> 
                     <a href='logout.jsp'>Log out</a>
 
 

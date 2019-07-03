@@ -1,3 +1,9 @@
+<%
+if ((session.getAttribute("userid") == null) || (session.getAttribute("userid") == "")) {
+  response.sendRedirect("login.jsp");
+} else {
+%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -72,4 +78,9 @@
 
 </body>
 </html>
+
+
+<%
+    }
+%>
 
