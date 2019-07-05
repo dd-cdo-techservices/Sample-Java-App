@@ -1,14 +1,13 @@
 <%
     
     if ((session.getAttribute("userid") == null) || (session.getAttribute("userid") == "")) {
+     
+      response.sendRedirect("index.jsp");
+
+    } else {
 %>
-You are not logged in<br/>
-<a href="index.jsp">Please Login</a>
-<%} else {
-%>
-Welcome <%=session.getAttribute("userid")%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -48,9 +47,7 @@ Welcome <%=session.getAttribute("userid")%>
                         <li class="nav-item active">
                           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Contact info</a>
-                        </li>
+                        
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Solutions
