@@ -40,12 +40,12 @@
                                     <input type="text" id="emailid" class="form-control" name="email" value="" placeholder="Email ID" required autofocus />
                                     </div>
                                     <div class="form-group">   
-                                    <input type="text" name="userName" class="form-control" value="" placeholder="User Name" required autofocus/></td>
+                                    <input type="text" name="userName" class="form-control" value="" id="username" placeholder="User Name" required autofocus/></td>
                                     </div>
                                     <div class="form-group">
                                     <input type="password" id="password" class="form-control" name="password" value="" placeholder="Password" required autofocus/>
                                     </div>
-                                    <input type="submit" value="Sign Up" class="btn btn-primary" style="background-color: green" />
+                                    <input type="submit" id="sub_reg" value="Sign Up" class="btn btn-primary" style="background-color: green" />
                                     
                                      
                                  </form>

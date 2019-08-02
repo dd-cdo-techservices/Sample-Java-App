@@ -6,8 +6,6 @@ if ((session.getAttribute("userid") == null) || (session.getAttribute("userid") 
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-
-<!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -141,7 +139,7 @@ if ((session.getAttribute("userid") == null) || (session.getAttribute("userid") 
                   <a href="#"><span class="glyphicon glyphicon-circle-arrow-down" style="float:right"></span></a>
                </div>
                               
-                     <iframe allow="microphone;" width="295" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/4c2b587d-044e-4bd3-948c-c9dc4dad46fa">
+                     <iframe width="295" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/4c2b587d-044e-4bd3-948c-c9dc4dad46fa">
               
                 </iframe>
             </div>

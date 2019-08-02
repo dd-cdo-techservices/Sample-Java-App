@@ -48,18 +48,17 @@
                           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         
-                        <li class="nav-item dropdown">
+                        <!--  li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Solutions
-                          </a>
+                          Solutions</a>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="ai_ml.jsp">AI/ML Chatbot</a>
                             <a class="dropdown-item" href="#">DevOps</a>
-                            
-                        </li>
-
+                           </div>
+                        </li -->
+						<li>  <a class="dropdown-item" href="ai_ml.jsp">AI/ML Chatbot</a>   </li>
                       </ul>
-                       
+                    
                      
                     </div>
 

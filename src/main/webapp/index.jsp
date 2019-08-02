@@ -29,17 +29,17 @@
     <body class="text-center">
                    
                     <form method="post" action="login.jsp" class="form-signin">
+                    	<table>
                             <img class="mb-4" src="images/bootstrap-solid.svg" alt="" width="72" height="72">                            <h1 class="h3 mb-3 font-weight-normal">Login Page</h1>
                             <label for="inputEmail" class="sr-only">Username</label>
-                             <input type="text" id="inputEmail"  name="userName" class="form-control" placeholder="User Name" required autofocus/>
+                             <input type="text" id="inputEmail"  name="userName" id="username" class="form-control" placeholder="User Name" required autofocus/>
                              <label for="inputpassword" class="sr-only">Password</label>
                              <input type="password" id="inputpassword" name="password" class="form-control" placeholder="Password" required /></td>
-                             <input class="btn btn-lg btn-primary btn-block"  type="submit" style="background-color: green"value="Login" />
-                             <td colspan="2">New User <a href="register.jsp">Register Here</a></td>
-                                    </tr>
-                                </tbody>
+                             <input class="btn btn-lg btn-primary btn-block"  type="submit" id="loginbutton" style="background-color: green"value="Login" /> </td>
+                              New User <a href="register.jsp">Register Here!</a>
+                                
                             </table>
-                            </center>
+                            
                         </form>
         
         
